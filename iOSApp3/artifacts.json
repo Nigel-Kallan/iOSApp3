@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Steam Locomotive",
+        "description": "A historic Canadian steam locomotive used during the early railway era.",
+        "image": "steam",
+        "category": "Transportation",
+        "museum": "Canadian Science and Technology Museum"
+    },
+    {
+        "id": 2,
+        "title": "BlackBerry Smartphone",
+        "description": "One of Canada's most famous technological innovations.",
+        "image": "blackberry",
+        "category": "Communications",
+        "museum": "Canadian Science and Technology Museum"
+    },
+    {
+        "id": 3,
+        "title": "Avro Arrow",
+        "description": "A legendary Canadian supersonic interceptor aircraft.",
+        "image": "arrow",
+        "category": "Aviation",
+        "museum": "Canadian Aviation and Space Museum"
+    },
+    {
+        "id": 4,
+        "title": "Canadarm",
+        "description": "Canada's famous robotic arm used on NASA Space Shuttle missions.",
+        "image": "canadarm",
+        "category": "Space",
+        "museum": "Canada Aviation and Space Museum"
+    },
+    {
+        "id": 5,
+        "title": "Early Radio",
+        "description": "One of the first household radios used in Canada.",
+        "image": "radio",
+        "category": "Communications",
+        "museum": "Canadian Science and Technology Museum"
+    }
+]
