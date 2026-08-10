@@ -78,16 +78,16 @@ This project demonstrates:
 ## Screenshots
 
 ### Home Screen
+<img width="347" height="658" alt="HOME" src="https://github.com/user-attachments/assets/bdfd9398-14a8-4b05-814d-97074c665af3" />
 
-*(Insert screenshot here)*
 
 ### Search Results
+<img width="329" height="658" alt="SEARCH" src="https://github.com/user-attachments/assets/b427c9df-5704-4e3e-91f4-d09d50298b54" />
 
-*(Insert screenshot here)*
 
 ### Artifact Details
+<img width="325" height="652" alt="ARTIFACT DETAILS" src="https://github.com/user-attachments/assets/2b0e85ad-7dd9-4d9c-8173-16161d23f9ff" />
 
-*(Insert screenshot here)*
 
 ---
 
@@ -105,6 +105,4 @@ This project demonstrates:
 
 ## Assignment
 
-Navigation App using SwiftUI and Canadian Museum Data<img width="325" height="652" alt="ARTIFACT DETAILS" src="https://github.com/user-attachments/assets/2b0e85ad-7dd9-4d9c-8173-16161d23f9ff" />
-<img width="329" height="658" alt="SEARCH" src="https://github.com/user-attachments/assets/b427c9df-5704-4e3e-91f4-d09d50298b54" />
-<img width="347" height="658" alt="HOME" src="https://github.com/user-attachments/assets/bdfd9398-14a8-4b05-814d-97074c665af3" />
+Navigation App using SwiftUI and Canadian Museum Data
