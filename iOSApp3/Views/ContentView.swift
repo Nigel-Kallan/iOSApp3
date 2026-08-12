@@ -9,64 +9,36 @@ import SwiftUI
 
 struct ContentView: View {
 
-    @StateObject private var museumAPI = MuseumAPI()
-    @State private var searchText = ""
-
     var body: some View {
 
-        NavigationStack {
+        TabView {
 
-            VStack(spacing: 8) {
-
-                Text("🇨🇦")
-                    .font(.system(size: 40))
-
-                Text("Canadian Science Museum Navigator")
-                    .font(.title2)
-                    .fontWeight(.bold)
-
-                TextField("Search for an artifact...", text: $searchText)
-                    .textFieldStyle(.roundedBorder)
-
-                Button("Search") {
-                    museumAPI.search(for: searchText)
-                }
-                .buttonStyle(.borderedProminent)
-
-            }
-            .padding()
-
-                ScrollView {
-
-                    LazyVStack(spacing: 10) {
-
-                        ForEach(museumAPI.artifacts) { artifact in
-
-                            NavigationLink {
-                                ArtifactDetailView(artifact: artifact)
-                            } label: {
-                                ArtifactRow(artifact: artifact)
-                            }
-
-                            Divider()
-
-                        }
-
-                    }
-                    .padding(.horizontal)
-
+            HomeView()
+                .tabItem {
+                    Label("Home", systemImage: "house.fill")
                 }
 
-            }
-            .navigationTitle("Museum")
-            .onAppear {
-                museumAPI.search(for: "")
-            }
+            MuseumView()
+                .tabItem {
+                    Label("Museum", systemImage: "map.fill")
+                }
+
+            SearchView()
+                .tabItem {
+                    Label("Search", systemImage: "magnifyingglass")
+                }
+
+            AboutView()
+                .tabItem {
+                    Label("About", systemImage: "info.circle.fill")
+                }
 
         }
+        .tint(.red)
 
     }
 
+}
 
 #Preview {
     ContentView()
