@@ -6,13 +6,15 @@ An iOS SwiftUI application that allows visitors to browse and search artifacts f
 
 ## Features
 
-- 🔍 Search museum artifacts
-- 🏛️ View Canadian museum collections
-- 📄 Artifact detail screen
-- 🧭 Navigation using NavigationStack
+- 🏠 Home screen with featured artifacts
+- 🔍 Live artifact search
+- 🏛 Artifact detail pages
+- 🗺 Interactive museum map
+- 📍 Open museum location in Apple Maps
+- ℹ About screen
 - 📦 JSON data using Codable
-- 🎨 SwiftUI user interface
-- 📱 Responsive iPhone layout
+- 📱 SwiftUI NavigationStack
+- 📑 TabView navigation
 
 ---
 
@@ -78,15 +80,19 @@ This project demonstrates:
 ## Screenshots
 
 ### Home Screen
-<img width="347" height="658" alt="HOME" src="https://github.com/user-attachments/assets/bdfd9398-14a8-4b05-814d-97074c665af3" />
+<img width="330" height="661" alt="HOME" src="https://github.com/user-attachments/assets/cf71e030-745b-4958-925c-da3ab4f60846" />
+
+
+### Museum Map
+<img width="326" height="657" alt="MUSEUM MAP" src="https://github.com/user-attachments/assets/51b73902-8594-4046-9450-4041e2f9af26" />
 
 
 ### Search Results
-<img width="329" height="658" alt="SEARCH" src="https://github.com/user-attachments/assets/b427c9df-5704-4e3e-91f4-d09d50298b54" />
+<img width="327" height="655" alt="SEARCH" src="https://github.com/user-attachments/assets/d87ca37f-9d31-4da1-a7e0-f2382a744c25" />
 
 
 ### Artifact Details
-<img width="325" height="652" alt="ARTIFACT DETAILS" src="https://github.com/user-attachments/assets/2b0e85ad-7dd9-4d9c-8173-16161d23f9ff" />
+<img width="320" height="649" alt="ARTIFACT DETAILS" src="https://github.com/user-attachments/assets/6dbaa94f-3581-4c31-ad7e-3aefb4779be0" />
 
 
 ---
